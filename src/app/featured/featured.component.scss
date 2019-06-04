@@ -1,0 +1,189 @@
+.featured{
+    text-align: center;
+    font-family: asap-bold, "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: dimgray;
+    margin-top: 10px;
+}
+.main-heading{
+    font-size: 18px;
+}
+.sub-heading{
+    font-size: 14px;
+}
+.img-galery{
+    margin-left: 10px;
+}
+.gallary-size{
+    height: 238px;
+    // width: 100%;
+    // border: 1px solid black;
+}
+.col-width{
+    width: 25%;
+}
+
+.row-galerry{
+    margin-left: 43px;
+    margin-top: 35px;
+    color: white;
+    font-size: 15px;
+    font-family: asap-bold, "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+.colour{
+    background-color:  #6fcbf0;
+    background: repeating-linear-gradient(
+  45deg,
+  #6fcbf0,
+  #1d6475 1px,
+  #1d5258 10px,
+  #0d5963 20px)
+}
+.learn{
+    margin-top: 50px;
+    margin-left: 52px;
+    height: 30px;
+    width: 60%;
+    // border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    color: #6fcbf0;
+    font-size: 13px;
+    padding-top: 2px;
+    box-shadow: 10px 5px 5px black;
+    
+
+    
+}
+.img-align{
+   margin-top: 2px;
+}
+.galarry-shadow{
+    box-shadow: 10px 5px 5px black;
+
+}
+
+
+// .animation{
+//     width: 100px;
+//   height: 100px;
+//   position: relative;
+//   background-color:blue;
+//   visibility: hidden;
+
+// }
+// .t{
+//     width: 500px;
+//     height: 500px;
+//     background-color:blue;
+//     text-align: center;
+//     // position: relative;
+// }
+
+// @keyframes example {
+//     0%   {background-color: red; left:0px;}
+//     50%  {background-color: yellow; left:200px;}
+//     100% {background-color: red; left:0px;}
+//   }
+//   .t:hover > .animation{
+   
+    
+   
+//     animation-name: example;
+//     animation-duration: 5s;
+//     animation-timing-function:ease;
+//     visibility: visible;
+    
+//   }
+
+  
+  .animation{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    // visibility: hidden;
+    display: none;
+    margin-top: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  @keyframes example {
+    0%   { left:0px;}
+    50%  {left:200px;}
+    100% { left:0px;}
+  }
+   #one:hover > .animation{
+   
+    
+   
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function:ease;
+    // visibility: visible;
+    display: block;
+    
+    
+  }
+
+  .col-width:hover .colour{
+   
+    
+   
+    background-color: rgb(4, 37, 56);
+    background: repeating-linear-gradient(
+  45deg,
+  #14475c,
+  #4c8796 1px,
+  #356f75 10px,
+  #193c41 20px)
+    
+  }
+
+  .col-gallery-s{
+      width: 100%;
+      height: 100%;
+  }
+
+  .info-text{
+      text-align: center;
+      margin-top: 20px;
+      
+  }
+  
+
+  .heding{
+      font-size: 19px;
+      font-weight: bold;
+  }
+  .sub{
+      font-size: 14px;
+      font-weight: bold;
+  }
+  
+  .info{
+    height: 100%;
+    width: 100%;
+  }
+  .info-left{
+      margin-left: 200px;
+      text-align: justify;
+     
+      color: dimgray;
+  }
+  .para{
+      margin-top: 20px;
+  }
+  a{
+      cursor: pointer;
+  }
+  .card-size{
+      width: 84%;
+      
+      margin-left: 114px;
+      background-color: aliceblue;
+      border-bottom: 2px solid #6fcbf0;
+      
+      
+  }
